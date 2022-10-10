@@ -28,9 +28,8 @@ public abstract class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "wheels=" + wheels +
-                ", doors=" + doors +
-                '}';
+        return getClass().getSimpleName() +":" +
+                " Wheels=" + wheels +
+                ", Doors=" + doors + "\n";
     }
 }

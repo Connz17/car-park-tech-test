@@ -8,4 +8,6 @@ public class Car extends Vehicle{
     public VehicleType getType(){
         return VehicleType.car;
     }
+
+
 }
