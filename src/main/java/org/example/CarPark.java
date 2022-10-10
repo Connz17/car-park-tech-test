@@ -5,27 +5,43 @@ import java.util.ArrayList;
 public class CarPark {
 
 
-    private ArrayList<Vehicle> carPark = new ArrayList<>();
+
+    public CarPark() {
+
+    }
+
+//    public generateCarPark(){
+//        carPark.add()
+//    }
+
+
+
+
+    private ArrayList<Vehicle> carsParked = new ArrayList<>();
+
+    private ArrayList<Space> carPark = new ArrayList<>();
 
     public ArrayList<Vehicle> getCarPark() {
-        return carPark;
+        return carsParked;
     }
 
     public void addVehicle (Vehicle vehicle){
-        this.carPark.add(vehicle);
+        this.carsParked.add(vehicle);
     }
 
+    public void addSpace (Space space){
+        this.carPark.add(space);
+    }
 
     public void listVehicles(){
-        for (Vehicle vehicle : carPark) {
+        for (Vehicle vehicle : carsParked) {
             System.out.println("Vehicle: " + vehicle);
         }
     }
 
     public void numberOfVehicles(){
-            System.out.println(carPark.size());
+            System.out.println(carsParked.size());
     }
-
 
 
 }

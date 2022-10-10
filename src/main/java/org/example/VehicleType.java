@@ -4,6 +4,7 @@ public enum VehicleType {
 
     motorcycle, car, van;
 
+
     VehicleType() {
     }
 }

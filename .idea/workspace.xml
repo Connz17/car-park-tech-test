@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4de1101-fdd7-4447-9921-a85c2f80fc89" name="Changes" comment="Vehicles created">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CarPark.java" afterDir="false" />
+    <list default="true" id="e4de1101-fdd7-4447-9921-a85c2f80fc89" name="Changes" comment="Vehicle factory made">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CompactSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegularSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpaceType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VehicleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CarPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CarPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VehicleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665392896080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Vehicle factory made">
+      <created>1665396678380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665396678380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Carpark tech-test" />
     <MESSAGE value="Vehicles created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vehicles created" />
+    <MESSAGE value="Vehicle factory made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vehicle factory made" />
   </component>
 </project>
